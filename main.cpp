@@ -109,5 +109,5 @@ int main(int argc, char *argv[]) {
     exit(0);
   }
 
-//  capture(rect, clientDC, )
+  capture(hwnd, clientDC, *(POINT*)&rect.right, framerate);
 }
