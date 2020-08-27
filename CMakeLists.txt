@@ -3,4 +3,4 @@ project(Win32RawRecorder)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Win32RawRecorder main.cpp)
+add_executable(Win32RawRecorder main.cpp capture.cpp capture.hpp)
